@@ -1,5 +1,5 @@
-import React, { useState} from 'react';
-import { Drawer, Hidden } from '@material-ui/core';
+import React from 'react';
+import { Drawer } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Search from './Search';
 import drawer from '@material-ui/core/Drawer';
@@ -18,7 +18,6 @@ const useStyles = makeStyles(theme => ({
 
   // Content inside the side bar.
   const DrawerContent = ({ searchData, onSuggestionClick }) => {
-    const [contact, setContact] = useState();
 
     // Invoke the parent contact selection.
     const handleSuggestionClick = suggestion => {
