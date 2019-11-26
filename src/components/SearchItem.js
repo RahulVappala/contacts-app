@@ -20,7 +20,11 @@ const useStyles = makeStyles(theme => ({
       listItemStyle: {
         paddingBottom: '0px',
         paddingTop: '0px',
-      }
+        cursor: 'pointer',
+        '&:hover': {
+          background: `${theme.palette.grey}`
+        },
+      },
   }));
 
 const SearchItem = (item) => {

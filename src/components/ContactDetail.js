@@ -44,6 +44,7 @@ const useStyles = makeStyles(theme => ({
   cardContent: {
     textAlign: 'left',
     padding: '0px',
+    paddingRight: '10px',
   },
   addressAlign: {
       paddingLeft: '50px',
