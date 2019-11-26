@@ -17,6 +17,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import BusinessIcon from '@material-ui/icons/Business';
 import LocationCityIcon from '@material-ui/icons/LocationCity';
 import PhoneIcon from '@material-ui/icons/Phone';
+import contactImg from '../images/contact.jpg';
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -91,9 +92,10 @@ export default function ContactDetail(item) {
         }
         title={selectedContact.name} className={classes.title}
       />
+      {/* <img src={contactImg} alt="contact" className={classes.media} title="contact"/> */}
       <CardMedia
         className={classes.media}
-        image="public/contact.jpg"
+        image={contactImg}
         title="contact"
       />
       <CardContent className={classes.cardContent}>
