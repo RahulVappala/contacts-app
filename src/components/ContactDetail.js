@@ -93,7 +93,7 @@ export default function ContactDetail(item) {
       />
       <CardMedia
         className={classes.media}
-        image="../../contact.jpg"
+        image="public/contact.jpg"
         title="contact"
       />
       <CardContent className={classes.cardContent}>
